@@ -1,0 +1,45 @@
+#createUser {
+    width: 100%;
+    padding: 2px;
+}
+.user--form_container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px 10px;
+    border: 1px solid darkslategrey;
+}
+.form-title {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.form-control {
+    width: 100%;
+    line-height: 1.8rem;
+    font-size: 2.0rem;
+    height: 4rem;
+    padding: 5px;
+}
+.from-label {
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.user--form_container.btn {
+    background-color: transparent;
+    border: 1px solid darkslategrey;
+    font-size: 2.0rem;
+    padding: 10px;
+    cursor: pointer;
+}
+.user--form_container .btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+    transition: .5s;
+    border: 1px solid cornflowerblue;
+}

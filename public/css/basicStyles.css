@@ -1,0 +1,41 @@
+/* basic css starts */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div, section, ul, li, a, p, h1, h2, h3, h4, h, h6, img, nav, body, hr {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 60%;
+    font-family: Open Sans, Serif;
+    width: 100%;
+    display: table;
+}
+
+.divider {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid darkslategrey;
+    font-size: 1.8rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+    transition: .5s;
+    border: 1px solid cornflowerblue;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* basic css ends */

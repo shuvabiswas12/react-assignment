@@ -1,0 +1,39 @@
+#navBar {
+    background-color: #F5F5F5;
+}
+
+.nav {
+    width: 90%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+}
+.secondPart-of--brand {
+    color: #D32F2F;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0 2px;
+}
+ul li a {
+    text-decoration: none;
+    line-height: 3.8rem;
+    padding: 1rem 1.5rem;
+}
+
+ul li:hover > a {
+    background-color: cornflowerblue;
+    color: white;
+    transition: .5s;
+}
