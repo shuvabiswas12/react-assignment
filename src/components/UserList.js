@@ -25,10 +25,9 @@ function UserList() {
         }
     }
 
-
     useEffect(() => {
         getUsers()
-    }, [pageNo])
+    })
 
     return (
         <section id="userList">
