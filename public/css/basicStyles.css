@@ -38,4 +38,18 @@ html {
     text-align: center;
 }
 
+.text-blue {
+    color: lavenderblush;
+}
+
+.message {
+    background-color: cadetblue;
+    padding: 20px 10px;
+    font-size: 3rem;
+}
+.message-box {
+    margin: 5px auto;
+    width: 50%;
+}
+
 /* basic css ends */
